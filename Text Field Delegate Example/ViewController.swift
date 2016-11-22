@@ -9,7 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var zipCodeTextField: UITextField!
+    
+    @IBOutlet weak var currencyTextField: UITextField!
 
+    @IBOutlet weak var lockableTextField: UITextField!
+    
+    @IBOutlet weak var lockSwitch: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
