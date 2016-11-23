@@ -51,7 +51,7 @@ class CurrencyTextFieldDelegate: NSObject, UITextFieldDelegate {
         
         //The New String Formatting
         if let userValue = Int(digitText) {
-            newText = "$" + self.dollarsCurrencyStringFromInt(value: userValue) + self.centsCurrencyStringFromInt(value: userValue)
+            newText = "$" + self.dollarsCurrencyStringFromInt(value: userValue) + "." + self.centsCurrencyStringFromInt(value: userValue)
         } else {
             newText = "$0.00"
         }

@@ -8,7 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
+    
+    let zipCodeTextFieldDelegate = ZipCodeTextFieldDelegate()
+    
+    let currencyTextFieldDelegate = CurrencyTextFieldDelegate()
+    
+    let randomizedColorTextFieldDelegate = RandomizedColorTextFieldDelegate()
     
     @IBOutlet weak var zipCodeTextField: UITextField!
     
@@ -16,14 +22,36 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var lockableTextField: UITextField!
     
-    @IBOutlet weak var lockSwitch: UISwitch!
+    @IBOutlet weak var lockableSwitch: UISwitch!
     
-    
+    @IBAction func lockableSwitch(_ sender: Any) {
+        
+        if !(sender as! UISwitch).isOn {
+            self.lockableTextField.resignFirstResponder()
+        }
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.zipCodeTextField.delegate = self.zipCodeTextFieldDelegate
+        self.currencyTextField.delegate = self.currencyTextFieldDelegate
+        self.lockableTextField.delegate = self.randomizedColorTextFieldDelegate
+        self.lockableSwitch.setOn(false, animated: true)
+        
     }
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        return self.lockableSwitch.isOn
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
