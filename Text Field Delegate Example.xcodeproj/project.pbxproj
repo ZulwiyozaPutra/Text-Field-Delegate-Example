@@ -16,6 +16,7 @@
 		6E66CE0D1DE4F98F000BA1B1 /* Text_Field_Delegate_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E66CE0C1DE4F98F000BA1B1 /* Text_Field_Delegate_ExampleUITests.swift */; };
 		6E66CE1B1DE4FC22000BA1B1 /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E66CE1A1DE4FC21000BA1B1 /* ZipCodeTextFieldDelegate.swift */; };
 		6E66CE1D1DE54FDE000BA1B1 /* CurrencyTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E66CE1C1DE54FDE000BA1B1 /* CurrencyTextFieldDelegate.swift */; };
+		6E66CE1F1DE5577A000BA1B1 /* randomizedColorTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E66CE1E1DE5577A000BA1B1 /* randomizedColorTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6E66CE0E1DE4F98F000BA1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E66CE1A1DE4FC21000BA1B1 /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6E66CE1C1DE54FDE000BA1B1 /* CurrencyTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6E66CE1E1DE5577A000BA1B1 /* randomizedColorTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomizedColorTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				6E66CDF81DE4F98F000BA1B1 /* Info.plist */,
 				6E66CE1A1DE4FC21000BA1B1 /* ZipCodeTextFieldDelegate.swift */,
 				6E66CE1C1DE54FDE000BA1B1 /* CurrencyTextFieldDelegate.swift */,
+				6E66CE1E1DE5577A000BA1B1 /* randomizedColorTextFieldDelegate.swift */,
 			);
 			path = "Text Field Delegate Example";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				6E66CDEF1DE4F98F000BA1B1 /* ViewController.swift in Sources */,
 				6E66CE1D1DE54FDE000BA1B1 /* CurrencyTextFieldDelegate.swift in Sources */,
+				6E66CE1F1DE5577A000BA1B1 /* randomizedColorTextFieldDelegate.swift in Sources */,
 				6E66CE1B1DE4FC22000BA1B1 /* ZipCodeTextFieldDelegate.swift in Sources */,
 				6E66CDED1DE4F98F000BA1B1 /* AppDelegate.swift in Sources */,
 			);
