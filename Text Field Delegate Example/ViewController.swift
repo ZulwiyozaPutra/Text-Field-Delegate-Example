@@ -37,7 +37,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         self.zipCodeTextField.delegate = self.zipCodeTextFieldDelegate
         self.currencyTextField.delegate = self.currencyTextFieldDelegate
-        self.lockableTextField.delegate = self.randomizedColorTextFieldDelegate
+        self.lockableTextField.delegate = self
         self.lockableSwitch.setOn(false, animated: true)
         
     }
