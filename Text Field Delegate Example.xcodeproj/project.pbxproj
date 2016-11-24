@@ -526,6 +526,7 @@
 				6E66CE131DE4F98F000BA1B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E66CE141DE4F98F000BA1B1 /* Build configuration list for PBXNativeTarget "Text Field Delegate ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				6E66CE161DE4F98F000BA1B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E66CE171DE4F98F000BA1B1 /* Build configuration list for PBXNativeTarget "Text Field Delegate ExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				6E66CE191DE4F98F000BA1B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
